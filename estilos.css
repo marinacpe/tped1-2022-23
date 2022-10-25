@@ -1,0 +1,89 @@
+body {
+    
+ 
+    height: auto;
+
+    
+   
+}
+
+#img1 {
+
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+img {
+    width: 100%;
+}
+
+.Titulo{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+.Subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 50px;
+    text-align: center;
+    color: grey;
+    margin: auto;
+}
+
+#Pgrande {
+    font-size: 150px;
+    font-weight:900;
+    float:left;
+
+}
+
+.Texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px; 
+    text-align:left;
+}
+
+.TextoCentrado {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#TituloLista {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Lista {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+#negrita {
+    font-weight: bold;
+}
+
+#negritasub {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#negritaitalic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#italic {
+    font-style: italic;
+}
+
