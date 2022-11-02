@@ -1,0 +1,21 @@
+img {
+    width: 33%;
+    height: auto;
+    float: left;
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: saturate(1);
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:paleturquoise
+
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
