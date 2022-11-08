@@ -11,7 +11,7 @@ body {
     filter: saturate(0);
 }
 
-a:hover img {
+a:hover img{
     filter: saturate(1);
 }
 h1 {
