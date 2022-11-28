@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(222, 246, 252);
+}
+
+h1 {
+    color: rgb(112, 155, 212);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#tipografias {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: auto;
+
+}
+
+#tipografias div {
+    width: 300px;
+    height: 500px;
+    overflow: auto;
+    background-color: rgb(240, 251, 255);
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-width: 5px;
+    border-style:groove;
+    border-color: rgb(74, 111, 192);
+    border-radius: 10px;
+}
+
+
+@font-face {
+
+    font-family:Abril Fat face;
+    src: url(fonts/AbrilFatface-Regular.ttf);
+}
+
+@font-face {
+
+    font-family:Fredoka One;
+    src: url(fonts/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+
+    font-family:Monoton;
+    src:url(fonts/Monoton-Regular.ttf);
+}
+
+@font-face {
+
+    font-family: Audio Wide;
+    src:url(fonts/Audiowide-Regular.ttf);
+}
+
+@font-face {
+
+    font-family: Playball;
+    src:url(fonts/Playball-Regular.ttf);
+}
+
+@font-face {
+
+    font-family: CabinSketch;
+    src:url(fonts/CabinSketch-Regular.ttf);
+}
+
+#tipo1 {
+    
+    color: rgb(112, 155, 212);
+    font-family:Abril Fat face;
+}
+
+#tipo2 {
+    
+    color: rgb(112, 155, 212);
+    font-family:Fredoka One;
+}
+
+#tipo3 {
+    
+    color: rgb(112, 155, 212);
+    font-family:Monoton;
+}
+
+#tipo4 {
+    
+    color: rgb(112, 155, 212);
+    font-family: Audio Wide;
+}
+
+#tipo5 {
+    
+    color: rgb(112, 155, 212);
+    font-family: Playball;
+}
+
+#tipo6 {
+    
+    color: rgb(112, 155, 212);
+    font-family: CabinSketch;
+}
