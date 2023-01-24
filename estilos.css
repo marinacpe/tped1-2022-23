@@ -1,205 +1,83 @@
-* {
+body {
     margin: 0;
-    padding: 0;
-}
+    background-image: url(imgs/fondo.jpg);
+    background-size: contain;
+   }
+    
+    img {
 
-div {
-    box-sizing: border-box;
-    /* para que los bordes, paddings estén en la anchura (determinada por col) */
-
-}
-
-nav {
-    position: fixed;
-    z-index: 1;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #77a5d07c;
-
-
-}
-
-#alturanav {
-    height: 100px;
-}
-
-nav a {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
-    font-size: 15px;
-    font-weight: 200;
-    color: whitesmoke;
-
-}
-main{
-    background-color: #77A5D0;
+    max-width: 450px;
     
     
 }
 
-h2 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: left;
-    font-size: 400%;
-    font-weight: 100;
-    margin: 1px;
-    color: whitesmoke;
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content:space-around;
 }
 
-h3 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: right;
-    font-size: 200%;
-    font-weight: 200;
-    color: whitesmoke;
-
+.filtro {
+    filter: saturate(0);
 }
 
-h5 {
-    font-size: 80%;
-    padding: 10px;
-    color: whitesmoke;
-    text-align: right;
+ img:hover{
+    
+    filter: saturate(1);
 }
-
-.segundalista {
-    color: black;
-    font-size: small;
-    display: inline;
-    list-style: none;
+h1 {
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color:rgb(255, 255, 255);
     text-align: center;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+    padding: 20px;
+    
 
 }
 
-footer a {
-    outline: none;
+h2, h3, h4 {
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    
+}
+
+a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    display: inline-block;
-    color: black;
     text-align: center;
-    font-family: "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 120;
-}
+  }
 
-footer {
-    padding-top: 20px;
-    background-color: whitesmoke;
-}
+  a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+  }
 
-div.fixed {
+#cookies {
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b48de745;
+    color: #ffffff;
+    height: 12vh;
+    width: 100%;
     position: fixed;
-    bottom: 40px;
-    right: 20px;
-    width: 300px;
-    height: 150px;
-   
-    background-color: #88bcec;
-    opacity: 60%;
-    border-radius: 20px;
-}
-
-button {
-    background-color: #77A5D0;
-    border-radius: 50px;
-
-
-}
-
-
-
-
-#cabecera {
-    padding-top: 60px;
-    padding-left: 60px;
-    align-items: center;
-}
-
-#izq {
-    padding-left: 70px;
-    padding-bottom: 40px;
-
-}
-
-#der {
-    padding: 0px;
-}
-
-#izq img {
-    padding-top: 70px;
-    padding-left: 70px;
-}
-
-#inf img {
-    padding-left: 10px;
-
-}
-
-#inf {
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-
-#inf h3 {
-    padding-top: 20px;
-
-}
-#carrusel {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 80px;
+    bottom: 0;
+    z-index: 3;
+    }
     
-}
-#carrusel img {
-    width:"105%";
-    height:"auto";
-    
-}
-
-
-
-
-@media only screen and (max-width: 393px) {
-    h2 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: left;
-    font-size: 100%;
-    font-weight: 100;
-    margin: 1px;
-    color: whitesmoke;
-}
-
-h3 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-align: right;
-    font-size: 150%;
-    font-weight: 200;
-    color: whitesmoke;
-
-}
-
-h5 {
-    font-size: 80%;
-    padding: 10px;
-    color: whitesmoke;
-    text-align: right;
-}
-#carrusel {
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-bottom: 10px;
-    
-}
-#carrusel img {
-    size: 0ch;
-    
-}
-
-#cabecera {
-    padding-top: 10px;
-    padding-left: 60px;
-    align-items: center;
-}
-}
+#cookies button {     
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;   
+    color: #4d95cf;
+    background-color: #eaf9ff;
+    border-color: #ffffff00;
+    border-radius: 5px;  
+    }
