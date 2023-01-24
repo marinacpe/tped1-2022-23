@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    box-sizing: border-box;
+    /* para que los bordes, paddings estén en la anchura (determinada por col) */
+
+}
+
+nav {
+    position: fixed;
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #77a5d07c;
+
+
+}
+
+#alturanav {
+    height: 100px;
+}
+
+nav a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    font-size: 15px;
+    font-weight: 200;
+    color: whitesmoke;
+
+}
+main{
+    background-color: #77A5D0;
+    
+    
+}
+
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 400%;
+    font-weight: 100;
+    margin: 1px;
+    color: whitesmoke;
+}
+
+h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: right;
+    font-size: 200%;
+    font-weight: 200;
+    color: whitesmoke;
+
+}
+
+h5 {
+    font-size: 80%;
+    padding: 10px;
+    color: whitesmoke;
+    text-align: right;
+}
+
+.segundalista {
+    color: black;
+    font-size: small;
+    display: inline;
+    list-style: none;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+}
+
+footer a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 120;
+}
+
+footer {
+    padding-top: 20px;
+    background-color: whitesmoke;
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    width: 300px;
+    height: 150px;
+   
+    background-color: #88bcec;
+    opacity: 60%;
+    border-radius: 20px;
+}
+
+button {
+    background-color: #77A5D0;
+    border-radius: 50px;
+
+
+}
+
+
+
+
+#cabecera {
+    padding-top: 60px;
+    padding-left: 60px;
+    align-items: center;
+}
+
+#izq {
+    padding-left: 70px;
+    padding-bottom: 40px;
+
+}
+
+#der {
+    padding: 0px;
+}
+
+#izq img {
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+#inf img {
+    padding-left: 10px;
+
+}
+
+#inf {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#inf h3 {
+    padding-top: 20px;
+
+}
+#carrusel {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 80px;
+    
+}
+#carrusel img {
+    width:"105%";
+    height:"auto";
+    
+}
+
+
+
+
+@media only screen and (max-width: 393px) {
+    h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 100%;
+    font-weight: 100;
+    margin: 1px;
+    color: whitesmoke;
+}
+
+h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: right;
+    font-size: 150%;
+    font-weight: 200;
+    color: whitesmoke;
+
+}
+
+h5 {
+    font-size: 80%;
+    padding: 10px;
+    color: whitesmoke;
+    text-align: right;
+}
+#carrusel {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    
+}
+#carrusel img {
+    size: 0ch;
+    
+}
+
+#cabecera {
+    padding-top: 10px;
+    padding-left: 60px;
+    align-items: center;
+}
+}
